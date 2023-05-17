@@ -46,7 +46,6 @@ jobs:
             docker push sangvv/udagram-api-user:v3
             docker push sangvv/udagram-frontend:v3
             docker push sangvv/udagram-reverseproxy:v3
-
 workflows:
   default:
     jobs:
