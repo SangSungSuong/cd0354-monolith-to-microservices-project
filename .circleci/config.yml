@@ -19,7 +19,7 @@ jobs:
             sudo cp -r node-v16.0.0-linux-x64/{bin,include,lib,share} /usr/
             node --version => v16.0.0
             sudo apt install nodejs
-            
+
             echo "--------- The images - Building ------------"
 
             docker build -t udagram-api-feed ./udagram-api-feed
@@ -41,7 +41,7 @@ jobs:
             docker login -u sangvv -p $DOCKERHUB_PASSWORD
 
             echo "-------------- Pushing images to dockerhub-------"
-
+            
             docker push sangvv/udagram-api-feed:v3
             docker push sangvv/udagram-api-user:v3
             docker push sangvv/udagram-frontend:v3
