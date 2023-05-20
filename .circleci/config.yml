@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   lint-app-microservices:
     docker:
-      - image: circleci/node:14.17.6
+      - image: circleci/node:16.16.0
     steps:
       - checkout
   build-docker:
@@ -17,7 +17,7 @@ jobs:
             sudo curl -LO https://nodejs.org/dist/v16.16.0/node-v16.16.0-linux-x64.tar.xz
             sudo tar -xvf node-v16.16.0-linux-x64.tar.xz
             sudo cp -r node-v16.16.0-linux-x64/{bin,include,lib,share} /usr/
-            node --version => v16.16.0
+            node --version => v
             sudo apt install nodejs
 
             echo "--------- The images - Building ------------"
