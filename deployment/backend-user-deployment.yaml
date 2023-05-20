@@ -20,9 +20,9 @@ spec:
         - containerPort: 80
         resources:
           limits:
-            cpu: "300m"
+            cpu: 300m
           requests:
-            cpu: "200m"
+            cpu: 200m
         env:
         - name: POSTGRES_USER
           valueFrom:
