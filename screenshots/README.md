@@ -35,7 +35,8 @@ kubectl _describe _services_2.PNG
 kubectl describe hpa
 
 Image evidence :
-kubectl _describe _services.PNG
+kubectl_describe _hpa_1.PNG
+kubectl_describe _hpa_2.PNG
 ```
 * To verify that you have set up logging with a backend application
 ```bash

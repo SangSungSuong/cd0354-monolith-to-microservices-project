@@ -3,10 +3,10 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  POSTGRES_HOST: sangvv.ckqfgf8unpzv.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: sangvv.crvgk3zsn0p7.us-east-1.rds.amazonaws.com
   POSTGRES_DB: sangvv
   AWS_BUCKET: sangvv
   AWS_REGION: us-east-1
   AWS_PROFILE : default
   JWT_SECRET: testing
-  URL: a9725973d92ec454f818153a9ae8fe92-1427426668.us-east-2.elb.amazonaws.com
+  URL: http://abe400a2ef18447af92b0079c7f5d360-277675474.us-east-1.elb.amazonaws.com
